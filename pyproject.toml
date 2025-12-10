@@ -1,0 +1,28 @@
+[project]
+name = "phi-jupyter"
+version = "0.1.0"
+description = "Philo's Jupyter configuration and utilities"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "black>=25.12.0",
+    "catppuccin-jupyterlab>=0.2.4",
+    "catppuccin[pygments]>=2.5.0",
+    "ipykernel>=7.1.0",
+    "isort>=7.0.0",
+    "jupyterlab>=4.5.0",
+    "jupyterlab-code-formatter>=3.0.2",
+    "jupyterlab-vim>=4.1.4",
+    "pygments>=2.19.2",
+    "ruff>=0.14.8",
+]
+
+[project.scripts]
+phi-jupyter-install = "jupyter_utils.installer:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/jupyter_utils"]
+
+[tool.hatch.build.targets.wheel.shared-data]
+"jupyterlab" = "share/jupyter_utils/jupyterlab"
+"ipython" = "share/jupyter_utils/ipython"
