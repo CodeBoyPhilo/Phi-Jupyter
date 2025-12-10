@@ -3,7 +3,7 @@
 A backup of my personal configurations and utilities for jupyter lab. It gives you a pre-configured jupyter envrionment with nice defaults.
 
 > [!CAUTION]
-> This project, including this README file, is generated with Claude-Sonnet-4.5. Use as your own risk.
+> This project, including this README file, is generated with Claude-Sonnet-4.5. Use at your own risk.
 
 > [!CAUTION]
 > Only tested on linux (NixOS). It may not work on your machine.
@@ -47,9 +47,7 @@ A backup of my personal configurations and utilities for jupyter lab. It gives y
   name = "cool project"
   version = "X.X.X"
   dependencies = [
-      ...
       "phi-jupyter",
-      ...
   ]
 
   # then add the following:
@@ -61,7 +59,7 @@ A backup of my personal configurations and utilities for jupyter lab. It gives y
 
 - This will install a jupyter environment with plugins. See [what gets installed](#what-gets-installed).
 
-- Next, you will have to link the my configurations and utilities to your `.ipython` and `.jupyter` folder respectively.
+- Next, you will have to link my configurations and utilities to your `.ipython` and `.jupyter` folder respectively.
   This project provides a nice command line utility that does this for you.
   Simply run the following after installation:
 
@@ -75,9 +73,8 @@ A backup of my personal configurations and utilities for jupyter lab. It gives y
 - **JupyterLab extensions**:
   - Catppuccin Mocha theme
   - Vim keybindings 
-  - Git integration
   - Code formatter (Black, isort, Ruff): format on save enabled
-- **Editor settings**: Maple Mono NF CN font, line numbers, rulers
+- **Editor settings**: Maple Mono NF CN font, line numbers, auto close brackets, etc.
 - **IPython startup scripts**: Auto-load utilities in every notebook
 
 ## 🚀 Usage
