@@ -57,7 +57,7 @@ A backup of my personal configurations and utilities for jupyter lab. It gives y
 
   and run `uv sync`.
 
-- This will install a jupyter environment with plugins. See [what gets installed](#what-gets-installed).
+- This will install a jupyter environment with plugins. See [what gets installed](#what-gets-installed-and-enabled-by-default).
 
 - Next, you will have to link my configurations and utilities to your `.ipython` and `.jupyter` folder respectively.
   This project provides a nice command line utility that does this for you.
@@ -67,7 +67,7 @@ A backup of my personal configurations and utilities for jupyter lab. It gives y
   phi-jupyter-install
   ```
 
-### What Gets Installed (and enabled by default)
+### What Gets Installed and Enabled by Default
 - **Python utilities** 
     - `ppprint`, which is pretty print with syntax highlighting. using Catppuccin Mocha style as default.
 - **JupyterLab extensions**:
