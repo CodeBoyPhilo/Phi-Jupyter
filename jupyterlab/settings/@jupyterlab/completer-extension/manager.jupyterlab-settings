@@ -5,6 +5,6 @@
     },
     "providerTimeout": 1000,
     "showDocumentationPanel": true,
-    "autoCompletion": true,
+    "autoCompletion": false,
     "suppressIfInlineCompleterActive": true
 }
