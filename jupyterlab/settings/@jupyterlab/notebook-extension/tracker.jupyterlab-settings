@@ -2,6 +2,7 @@
     "enableKernelInitNotification": true,
     "codeCellConfig": {
         "autoClosingBrackets": true,
+        "codeFolding": true,
         "highlightActiveLine": true,
         "lineNumbers": true,
         "lineWrap": true,
@@ -33,7 +34,8 @@
     "showEditorForReadOnlyMarkdown": true,
     "kernelStatus": {
         "showOnStatusBar": false,
-        "showProgress": true
+        "showProgress": true,
+        "showJumpToRecentExecutionButton": false
     },
     "documentWideUndoRedo": false,
     "showHiddenCellsButton": true,
@@ -42,5 +44,7 @@
     "sideBySideRightMarginOverride": "10px",
     "sideBySideOutputRatio": 1,
     "windowingMode": "full",
-    "accessKernelHistory": false
+    "accessKernelHistory": false,
+    "addExtraLineOnCellMerge": true,
+    "showMinimap": false
 }
