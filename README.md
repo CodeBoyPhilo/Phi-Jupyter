@@ -73,7 +73,7 @@ A backup of my personal configurations and utilities for jupyter lab. It gives y
 - **JupyterLab extensions**:
   - Catppuccin Mocha theme
   - Vim keybindings 
-  - Code formatter (Black, isort, Ruff): format on save enabled
+  - Code formatter (Black, isort, Ruff)
 - **Editor settings**: Maple Mono NF CN font, line numbers, auto close brackets, etc.
 - **IPython startup scripts**: Auto-load utilities in every notebook
 
